@@ -1,0 +1,183 @@
+Category: Electronics & Computers
+1. Zenith X5 Smartphone
+Description: Flagship mobile device with edge-to-edge display and night-mode photography.
+Price: $999.00
+Category: Electronics
+Features: 5G Support, 256GB Storage, Triple Lens Camera, Face ID
+
+2. EchoSound Pro Headphones
+Description: Over-ear wireless headphones with industry-leading noise cancellation.
+Price: $249.99
+Category: Audio
+Features: Active Noise Cancelling, 30-hour Battery, Bluetooth 5.2, Built-in Mic
+
+3. Titan Gaming Laptop
+Description: High-performance laptop built for competitive gaming and rendering.
+Price: $1,850.00
+Category: Computers
+Features: RTX 4080 GPU, 32GB RAM, 1TB SSD, RGB Keyboard
+
+4. UltraView 4K Monitor
+Description: 27-inch IPS monitor with stunning color accuracy for designers.
+Price: $350.00
+Category: Computers
+Features: 4K Resolution, HDR10, USB-C Hub, Adjustable Stand
+
+5. Swift Air Tablet
+Description: Lightweight tablet perfect for digital art and media consumption.
+Price: $599.00
+Category: Electronics
+Features: Stylus Support, Liquid Retina Display, M1 Chip, All-day Battery
+
+6. MechKey RGB Keyboard
+Description: Mechanical keyboard with tactile switches and customizable lighting.
+Price: $120.00
+Category: Accessories
+Features: Blue Switches, Hot-swappable, Aluminum Frame, Macro Keys
+
+7. Precision Wireless Mouse
+Description: Ergonomic mouse designed to reduce wrist strain during long work sessions.
+Price: $85.00
+Category: Accessories
+Features: 4000 DPI, Silent Clicks, Multi-device Pairing, Thumb Scroll
+
+8. HyperDrive External SSD
+Description: Rugged portable storage for transferring large files quickly.
+Price: $110.00
+Category: Computers
+Features: 1TB Capacity, Water Resistant, USB 3.2, Shockproof
+
+Category: Smart Home & Appliances
+9. RoboClean S7 Vacuum
+Description: Autonomous robot vacuum that mops and sweeps simultaneously.
+Price: $450.00
+Category: Home
+Features: LiDAR Navigation, App Control, Self-Emptying Base, Pet Hair Filter
+
+10. PureFlow Air Purifier
+Description: HEPA filter system to remove allergens and dust from medium rooms.
+Price: $129.99
+Category: Home
+Features: HEPA H13 Filter, Silent Mode, Air Quality Sensor, Timer
+
+11. BaristaPro Coffee Maker
+Description: Programmable drip coffee machine with built-in bean grinder.
+Price: $199.00
+Category: Kitchen
+Features: Integrated Grinder, Thermal Carafe, Timer, Keep Warm Function
+
+12. SmartGlow LED Bulb
+Description: WiFi-enabled light bulb with millions of color options.
+Price: $15.00
+Category: Smart Home
+Features: Voice Control, 16M Colors, Dimmable, Schedule Setting
+
+13. SecureLock Smart Door
+Description: Keyless entry deadbolt with fingerprint and code access.
+Price: $220.00
+Category: Smart Home
+Features: Fingerprint Scanner, Remote Lock, Activity Log, Backup Key
+
+14. TurboBlend 5000
+Description: High-speed blender for smoothies, soups, and crushing ice.
+Price: $89.00
+Category: Kitchen
+Features: 1200W Motor, Glass Pitcher, 3 Speed Settings, Dishwasher Safe
+
+15. InstantHeat Electric Kettle
+Description: Stainless steel kettle with variable temperature control for tea lovers.
+Price: $45.00
+Category: Kitchen
+Features: Rapid Boil, Temperature Hold, Auto Shut-off, Gooseneck Spout
+
+16. ClimateControl Thermostat
+Description: Smart thermostat that learns your schedule to save energy.
+Price: $175.00
+Category: Smart Home
+Features: Energy Usage Report, Remote App Control, Voice Assistant Compatible
+
+Category: Wearables & Fashion
+17. FitTrack Pulse Watch
+Description: Advanced fitness tracker for running, swimming, and sleep monitoring.
+Price: $149.50
+Category: Wearables
+Features: Heart Rate Monitor, GPS, Waterproof 5ATM, Sleep Score
+
+18. Urban Commuter Backpack
+Description: Water-resistant backpack with a dedicated laptop compartment.
+Price: $75.00
+Category: Fashion
+Features: Anti-theft Pocket, USB Charging Port, Padded Straps, 20L Capacity
+
+19. Classic Leather Wallet
+Description: Minimalist bi-fold wallet made from genuine full-grain leather.
+Price: $40.00
+Category: Fashion
+Features: RFID Blocking, Slim Profile, 6 Card Slots, Coin Pocket
+
+20. SolarRay Sunglasses
+Description: Polarized aviator sunglasses for driving and outdoor sports.
+Price: $65.00
+Category: Fashion
+Features: UV400 Protection, Polarized Lenses, Lightweight Frame, Scratch Resistant
+
+21. AeroRun Running Shoes
+Description: Breathable athletic shoes with shock-absorbing foam soles.
+Price: $110.00
+Category: Fashion
+Features: Mesh Upper, Memory Foam Insole, Non-slip Grip, Reflective Strips
+
+22. WinterGuard Parka
+Description: Heavy-duty insulated coat designed for extreme cold weather.
+Price: $299.00
+Category: Clothing
+Features: Down Fill, Faux Fur Hood, Water Repellent, Thermal Lining
+
+Category: Gaming & Hobbies
+23. Console X Series
+Description: Next-gen gaming console supporting 8K gaming and fast load times.
+Price: $499.00
+Category: Gaming
+Features: 1TB SSD, 120FPS Support, Ray Tracing, Wireless Controller
+
+24. ProRacer Gaming Chair
+Description: Ergonomic chair with lumbar support and reclining backrest.
+Price: $180.00
+Category: Gaming
+Features: Lumbar Pillow, Adjustable Armrests, 180° Recline, PU Leather
+
+25. VR Vision Headset
+Description: Wireless virtual reality system for immersive gaming experiences.
+Price: $399.00
+Category: Gaming
+Features: 6DOF Tracking, Built-in Audio, Hand Controllers, PC Compatible
+
+26. SkyHigh Camera Drone
+Description: Foldable quadcopter drone with 4K video recording capabilities.
+Price: $750.00
+Category: Hobbies
+Features: 4K Camera, Obstacle Avoidance, 30min Flight Time, Return-to-Home
+
+27. YogaFlex Mat
+Description: Extra thick non-slip mat for yoga and pilates exercises.
+Price: $35.00
+Category: Fitness
+Features: Eco-friendly Material, Carrying Strap, Non-slip Texture, 6mm Thickness
+
+28. PowerGrip Dumbbells
+Description: Adjustable dumbbell set that replaces 15 sets of weights.
+Price: $250.00
+Category: Fitness
+Features: Adjustable Weight (5-52lbs), Compact Base, Rubber Grip, Safety Lock
+
+29. Acoustic Wood Guitar
+Description: Full-size acoustic guitar suitable for beginners and intermediates.
+Price: $140.00
+Category: Hobbies
+Features: Spruce Top, Mahogany Back, Steel Strings, Tuner Included
+
+30. Camping Pro Tent
+Description: 4-person dome tent that sets up in under 5 minutes.
+Price: $120.00
+Category: Outdoors
+Features: Rainfly Included, Mesh Windows, Waterproof Floor, Lightweight Poles

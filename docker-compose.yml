@@ -1,0 +1,16 @@
+services:
+  db:
+    image: pgvector/pgvector:pg16
+    container_name: pgvector_db
+    ports:
+      - "5433:5432"
+    environment:
+      - POSTGRES_USER=surro
+      - POSTGRES_PASSWORD=secret
+      - POSTGRES_DB=open-ai-db
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    labels:
+      - "org.springframework.boot.service-connection=postgres"
+volumes:
+  pgdata:
