@@ -1,4 +1,4 @@
-package org.surro.springaidemo;
+package org.surro.springaidemo.configuration;
 
 import org.springframework.ai.embedding.EmbeddingModel;
 import org.springframework.ai.vectorstore.VectorStore;
