@@ -1,8 +1,11 @@
 package org.surro.springaidemo.controller;
 
+import org.springframework.ai.audio.transcription.AudioTranscriptionOptions;
 import org.springframework.ai.audio.transcription.AudioTranscriptionPrompt;
 import org.springframework.ai.audio.transcription.TranscriptionModel;
 import org.springframework.ai.openai.OpenAiAudioTranscriptionModel;
+import org.springframework.ai.openai.OpenAiAudioTranscriptionOptions;
+import org.springframework.ai.openai.api.OpenAiAudioApi;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -22,7 +25,12 @@ public class AudioToTextController {
 
     @PostMapping("/record")
     public String generateText(@RequestParam MultipartFile file) {
-        AudioTranscriptionPrompt prompt = new AudioTranscriptionPrompt(file.getResource());
+        AudioTranscriptionOptions transcriptionOptions = OpenAiAudioTranscriptionOptions.builder()
+                .responseFormat(OpenAiAudioApi.TranscriptResponseFormat.SRT)
+                .temperature(0f)
+                .language("uk")
+                .build();
+        AudioTranscriptionPrompt prompt = new AudioTranscriptionPrompt(file.getResource(), transcriptionOptions);
         return transcriptionModel.call(prompt).getResult().getOutput();
     }
 }
