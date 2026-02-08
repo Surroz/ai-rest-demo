@@ -7,6 +7,7 @@ import org.springframework.ai.chat.memory.ChatMemory;
 import org.springframework.ai.chat.memory.MessageWindowChatMemory;
 import org.springframework.ai.chat.model.ChatResponse;
 import org.springframework.ai.chat.prompt.PromptTemplate;
+import org.springframework.ai.converter.ListOutputConverter;
 import org.springframework.ai.document.Document;
 import org.springframework.ai.embedding.EmbeddingModel;
 import org.springframework.ai.openai.OpenAiChatModel;
@@ -14,6 +15,7 @@ import org.springframework.ai.vectorstore.SearchRequest;
 import org.springframework.ai.vectorstore.VectorStore;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.core.convert.support.DefaultConversionService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -61,7 +63,7 @@ public class OpenAIController {
     }
 
     @PostMapping("/recommend")
-    public String recommend(@RequestParam String genre, @RequestParam String year, @RequestParam String length) {
+    public List<String> recommend(@RequestParam String genre, @RequestParam String year, @RequestParam String length) {
         String request = """
                 Can you recommend movies of {genre}
                 that come out in {year} year
@@ -70,9 +72,8 @@ public class OpenAIController {
                 give 3 variants
                 """;
         PromptTemplate template = new PromptTemplate(request);
-
         return chatClient.prompt(template.create(Map.of("genre", genre, "year", year, "length", length)))
-                .call().content();
+                .call().entity(new ListOutputConverter(new DefaultConversionService()));
 
     }
 
