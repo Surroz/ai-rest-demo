@@ -15,9 +15,11 @@ import org.springframework.ai.vectorstore.SearchRequest;
 import org.springframework.ai.vectorstore.VectorStore;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.core.ParameterizedTypeReference;
 import org.springframework.core.convert.support.DefaultConversionService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import org.surro.springaidemo.model.Movie;
 
 import java.util.List;
 import java.util.Map;
@@ -67,7 +69,7 @@ public class OpenAIController {
         String request = """
                 Can you recommend movies of {genre}
                 that come out in {year} year
-                and no longer than {length} minutes?
+                and no longer than {length} minutes
                 IMDB rating must be above 7.4,
                 give 3 variants
                 """;
@@ -75,6 +77,19 @@ public class OpenAIController {
         return chatClient.prompt(template.create(Map.of("genre", genre, "year", year, "length", length)))
                 .call().entity(new ListOutputConverter(new DefaultConversionService()));
 
+    }
+
+    @PostMapping("/movies")
+    public List<Movie> recommendMovies(@RequestParam String genre, @RequestParam String year, @RequestParam String length) {
+        List<Movie> movies = ChatClient.create(chatModel).prompt()
+                .user("""
+                Generate the filmography of 5 movies {genre}
+                genre that come out in {year} year
+                and no longer than {length} minutes
+                """)
+                .call()
+                .entity(new ParameterizedTypeReference<List<Movie>>() {});
+        return movies;
     }
 
     @PostMapping("/embedding")
